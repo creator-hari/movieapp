@@ -2,10 +2,7 @@ require('dotenv').config();
 const express = require('express')
 const connectDB = require('./config/db');
 const MoviesModel = require('./models/movies.model')
-// const axios = require('axios');
 const cors = require('cors')
-
-
 connectDB();
 const app = express();
 
